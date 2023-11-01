@@ -6,12 +6,12 @@ export const StiloHome =  styled.div `
 
 display: flex;
 flex-direction: column;
-height: 700px;
+height: auto;
 width: 400px;
 justify-content: center;
 background-color: #68AAB1;
 color: white;
-overflow: hidden;
+margin-top: 20px;
 
 
 
@@ -26,7 +26,6 @@ overflow: hidden;
     align-items: left;
     padding: 20px;
     width: 100%;
-    height: 100%;
     
 
 }

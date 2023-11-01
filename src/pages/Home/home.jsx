@@ -7,10 +7,10 @@ import hferro from "../../assets/img/homem.png";
 
 function Home() {
     const [listaDeContatos, setListaDeContatos] = useState([]);
-    const [nome, setNome] = useState('vitor');
-    const [telefone, setTelefone] = useState('213');
+    const [nome, setNome] = useState('');
+    const [telefone, setTelefone] = useState('');
     const [zap, setZap] = useState(false);
-    const [obs, setObs] = useState('32662');
+    const [obs, setObs] = useState('');
 
 
     const adicionarContato = (e) => {

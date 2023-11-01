@@ -16,8 +16,7 @@ const Contato = ({ contato, excluirContato, editarContato }) => {
             </li>
             <li className="wpp"> <img src={wpp} alt="icone wpp" /> É WhatsApp: {zap ? "Sim" : "Não"}</li>
             <label htmlFor="">Observações:</label>
-
-            <p className="obs" > {obs}</p>
+            <li className="obs" > {obs}</li>
             <li className="buttons">
                 <button className="editar" type="button" onClick={() => { editarContato(contato) }} >Editar</button>
                 <button className="deletar" type="button" onClick={() => { excluirContato(telefone) }}>Deletar</button>

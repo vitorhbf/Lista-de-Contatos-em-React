@@ -17,7 +17,10 @@ div{
 
 li{
     list-style-type: none;
-    padding: 5px 0px;  
+    padding: 5px 0px;
+    max-width:300px ;
+    overflow: hidden;
+    word-wrap: break-word;
 }
 
 .nome{

@@ -13,7 +13,7 @@ export const GlobalStyle = createGlobalStyle `
         text-decoration: none;
         background-color: #43858C;
         color: black;
-        height: 100vh;
+        height: auto;
         width: 100%;
         display: flex;
         justify-content: center;
